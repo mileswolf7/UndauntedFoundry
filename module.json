@@ -1,0 +1,55 @@
+{   
+   "name": "UndauntedCompendium",   
+   "title": "Undaunted Compendium",   
+   "description": "Importing Customer Undaunted Server Data",   
+   "author": "Based Wolf",
+   "version": "1.0.0",
+   "minimumCoreVersion": "9",
+   "compatibleCoreVersion":"9",
+   "download": "https://github.com/mileswolf7/UndauntedFoundry/archive/refs/heads/main.zip",
+   "manifest": "https://raw.githubusercontent.com/mileswolf7/UndauntedFoundry/main/module.json",
+   "packs": [
+    {
+      "name": "UndauntedItems",
+      "label": "Undaunted Items",
+      "path": "packs/undaunteditems.db",
+      "entity": "Item",
+      "module": "UndauntedCompendium"
+    },
+    {
+      "name": "UndauntedMoves",
+      "label": "Undaunted Moves",
+      "path": "packs/undauntedmoves.db",
+      "entity": "Item",
+      "module": "UndauntedCompendium"
+    },
+    {
+      "name": "UndauntedAbilities",
+      "label": "Undaunted Abilities",
+      "path": "packs/undauntedabilities.db",
+      "entity": "Item",
+      "module": "UndauntedCompendium"
+    },
+	 {
+      "name": "UndauntedCapabilities",
+      "label": "Undaunted Capabilities",
+      "path": "packs/undauntedcapabilities.db",
+      "entity": "Item",
+      "module": "UndauntedCompendium"
+    },
+	 {
+      "name": "UndauntedFeats",
+      "label": "Undaunted Feats",
+      "path": "packs/undauntedfeats.db",
+      "entity": "Item",
+      "module": "UndauntedCompendium"
+    },
+	 {
+      "name": "UndauntedEdges",
+      "label": "Undaunted Edges",
+      "path": "packs/undauntededges.db",
+      "entity": "Item",
+      "module": "UndauntedCompendium"
+    }
+  ]
+ }
